@@ -28,3 +28,4 @@ cmake . \
     -DCMAKE_INSTALL_PREFIX=$SYSROOT
 
 make
+make install
