@@ -1,0 +1,384 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, tests.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  importer.cc
+  parser.cc
+  descriptor.cc
+  descriptor.pb.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(276): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(256): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(311): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::int64> *)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  descriptor_database.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(276): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(256): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(311): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::int64> *)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  dynamic_message.cc
+  extension_set.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(732): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(580): note: 编译类 模板 成员函数“google::protobuf::RepeatedField<google::protobuf::int64>::RepeatedField(void)”时
+  ..\src\google\protobuf\extension_set.cc(313): note: 参见对正在编译的函数 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>::RepeatedField(void)”的引用
+  ..\src\google\protobuf\extension_set.cc(313): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  extension_set_heavy.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(684): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::Add(const Element &)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(256): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::Add(const Element &)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+  ..\src\google\protobuf\extension_set_heavy.cc(412): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+  ..\src\google\protobuf\extension_set_heavy.cc(327): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  generated_message_reflection.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(806): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::Reserve(int)”时
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(685): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::Reserve(int)”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(663): note: 编译类 模板 成员函数“const google::protobuf::int64 &google::protobuf::RepeatedField<google::protobuf::int64>::Get(int) const”时
+  ..\src\google\protobuf\generated_message_reflection.cc(1643): note: 参见对正在编译的函数 模板 实例化“const google::protobuf::int64 &google::protobuf::RepeatedField<google::protobuf::int64>::Get(int) const”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+  ..\src\google\protobuf\generated_message_reflection.cc(659): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+  ..\src\google\protobuf\generated_message_reflection.cc(259): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  generated_message_util.cc
+  coded_stream.cc
+  gzip_stream.cc
+  printer.cc
+  strtod.cc
+  tokenizer.cc
+  zero_copy_stream.cc
+  zero_copy_stream_impl.cc
+  zero_copy_stream_impl_lite.cc
+  message.cc
+  message_lite.cc
+  正在生成代码...
+e:\jni\libshared\protobuf\protobuf-2.6.1\src\google\protobuf\extension_set.cc(74): warning C4715: “google::protobuf::internal::`anonymous namespace'::is_packable”: 不是所有的控件路径都返回值
+  正在编译...
+  reflection_ops.cc
+  repeated_field.cc
+  service.cc
+  atomicops_internals_x86_msvc.cc
+  common.cc
+  once.cc
+  stringprintf.cc
+  structurally_valid.cc
+  strutil.cc
+  substitute.cc
+  text_format.cc
+  unknown_field_set.cc
+  wire_format.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::int64 [],
+              Element=google::protobuf::int64,
+              _InIt=const google::protobuf::int64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::int64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::int64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”时
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(276): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::int64>::size(void) const”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(256): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::int64>”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(311): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::int64> *)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  wire_format_lite.cc
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2230): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(842): note: 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=google::protobuf::uint64 [],
+              Element=google::protobuf::uint64,
+              _InIt=const google::protobuf::uint64 []
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(841): note: 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(834): note: 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(833): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(828): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(827): note: 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(814): note: 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+          with
+          [
+              Element=google::protobuf::uint64
+          ]
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h(631): note: 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(276): note: 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(256): note: 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用
+  E:\jni\LibShared\protobuf\protobuf-2.6.1\src\google/protobuf/wire_format_lite_inl.h(309): note: 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xutility(2216): note: 参见“std::_Copy_impl”的声明
+  正在生成代码...
+  libprotobuf.vcxproj -> E:\jni\LibShared\protobuf\protobuf-2.6.1\vsprojects\x64\Debug\libprotobufd.lib

@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cc
+..\src\google\protobuf\compiler\main.cc : fatal error C1041: 无法打开程序数据库“E:\jni\LibShared\protobuf\protobuf-2.6.1\vsprojects\x64\Debug\vc140.pdb”；如果要将多个 CL.EXE 写入同一个 .PDB 文件，请使用 /FS

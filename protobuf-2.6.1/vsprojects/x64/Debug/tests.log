@@ -1,0 +1,98 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (libprotobuf-lite.vcxproj, libprotobuf.vcxproj, libprotoc.vcxproj, lite-test.vcxproj, protoc.vcxproj, test_plugin.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  command_line_interface_unittest.cc
+..\src\google\protobuf\compiler\command_line_interface_unittest.cc(46): fatal error C1083: 无法打开包括文件: “google/protobuf/descriptor.pb.h”: No such file or directory
+  cpp_bootstrap_unittest.cc
+..\src\google\protobuf\compiler\cpp\cpp_bootstrap_unittest.cc(47): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/cpp/cpp_generator.h”: No such file or directory
+  cpp_plugin_unittest.cc
+..\src\google\protobuf\compiler\cpp\cpp_plugin_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/cpp/cpp_generator.h”: No such file or directory
+  cpp_unittest.cc
+..\src\google\protobuf\compiler\cpp\cpp_unittest.cc(47): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/cpp/cpp_unittest.h”: No such file or directory
+  importer_unittest.cc
+..\src\google\protobuf\compiler\importer_unittest.cc(35): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/hash.h”: No such file or directory
+  java_doc_comment_unittest.cc
+..\src\google\protobuf\compiler\java\java_doc_comment_unittest.cc(33): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/java/java_doc_comment.h”: No such file or directory
+  java_plugin_unittest.cc
+..\src\google\protobuf\compiler\java\java_plugin_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/java/java_generator.h”: No such file or directory
+  mock_code_generator.cc
+..\src\google\protobuf\compiler\mock_code_generator.cc(33): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/mock_code_generator.h”: No such file or directory
+  parser_unittest.cc
+..\src\google\protobuf\compiler\parser_unittest.cc(40): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/parser.h”: No such file or directory
+  python_plugin_unittest.cc
+..\src\google\protobuf\compiler\python\python_plugin_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/python/python_generator.h”: No such file or directory
+  descriptor_database_unittest.cc
+..\src\google\protobuf\descriptor_database_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/descriptor_database.h”: No such file or directory
+  descriptor_unittest.cc
+..\src\google\protobuf\descriptor_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/compiler/importer.h”: No such file or directory
+  dynamic_message_unittest.cc
+..\src\google\protobuf\dynamic_message_unittest.cc(43): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  extension_set_unittest.cc
+..\src\google\protobuf\extension_set_unittest.cc(35): fatal error C1083: 无法打开包括文件: “google/protobuf/extension_set.h”: No such file or directory
+  generated_message_reflection_unittest.cc
+..\src\google\protobuf\generated_message_reflection_unittest.cc(45): fatal error C1083: 无法打开包括文件: “google/protobuf/generated_message_reflection.h”: No such file or directory
+  coded_stream_unittest.cc
+..\src\google\protobuf\io\coded_stream_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/io/coded_stream.h”: No such file or directory
+  printer_unittest.cc
+..\src\google\protobuf\io\printer_unittest.cc(37): fatal error C1083: 无法打开包括文件: “google/protobuf/io/printer.h”: No such file or directory
+  tokenizer_unittest.cc
+..\src\google\protobuf\io\tokenizer_unittest.cc(40): fatal error C1083: 无法打开包括文件: “google/protobuf/io/tokenizer.h”: No such file or directory
+  zero_copy_stream_unittest.cc
+..\src\google\protobuf\io\zero_copy_stream_unittest.cc(49): fatal error C1083: 无法打开包括文件: “config.h”: No such file or directory
+  message_unittest.cc
+..\src\google\protobuf\message_unittest.cc(35): fatal error C1083: 无法打开包括文件: “google/protobuf/message.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  reflection_ops_unittest.cc
+..\src\google\protobuf\reflection_ops_unittest.cc(35): fatal error C1083: 无法打开包括文件: “google/protobuf/reflection_ops.h”: No such file or directory
+  repeated_field_reflection_unittest.cc
+..\src\google\protobuf\repeated_field_reflection_unittest.cc(36): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  repeated_field_unittest.cc
+..\src\google\protobuf\repeated_field_unittest.cc(43): fatal error C1083: 无法打开包括文件: “google/protobuf/repeated_field.h”: No such file or directory
+  common_unittest.cc
+..\src\google\protobuf\stubs\common_unittest.cc(34): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  once_unittest.cc
+..\src\google\protobuf\stubs\once_unittest.cc(40): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/once.h”: No such file or directory
+  stringprintf_unittest.cc
+..\src\google\protobuf\stubs\stringprintf_unittest.cc(33): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/stringprintf.h”: No such file or directory
+  structurally_valid_unittest.cc
+..\src\google\protobuf\stubs\structurally_valid_unittest.cc(4): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/common.h”: No such file or directory
+  strutil_unittest.cc
+..\src\google\protobuf\stubs\strutil_unittest.cc(33): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/strutil.h”: No such file or directory
+  template_util_unittest.cc
+..\src\google\protobuf\stubs\template_util_unittest.cc(38): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/template_util.h”: No such file or directory
+  type_traits_unittest.cc
+..\src\google\protobuf\stubs\type_traits_unittest.cc(33): fatal error C1083: 无法打开包括文件: “google/protobuf/stubs/type_traits.h”: No such file or directory
+  file.cc
+..\src\google\protobuf\testing\file.cc(34): fatal error C1083: 无法打开包括文件: “google/protobuf/testing/file.h”: No such file or directory
+  googletest.cc
+..\src\google\protobuf\testing\googletest.cc(34): fatal error C1083: 无法打开包括文件: “google/protobuf/testing/googletest.h”: No such file or directory
+  test_util.cc
+..\src\google\protobuf\test_util.cc(41): fatal error C1083: 无法打开包括文件: “google/protobuf/test_util.h”: No such file or directory
+  text_format_unittest.cc
+..\src\google\protobuf\text_format_unittest.cc(39): fatal error C1083: 无法打开包括文件: “google/protobuf/text_format.h”: No such file or directory
+  unknown_field_set_unittest.cc
+..\src\google\protobuf\unknown_field_set_unittest.cc(38): fatal error C1083: 无法打开包括文件: “google/protobuf/unknown_field_set.h”: No such file or directory
+  wire_format_unittest.cc
+..\src\google\protobuf\wire_format_unittest.cc(35): fatal error C1083: 无法打开包括文件: “google/protobuf/wire_format.h”: No such file or directory
+  cpp_test_bad_identifiers.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\compiler\cpp\cpp_test_bad_identifiers.pb.cc”: No such file or directory
+  unittest.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest.pb.cc”: No such file or directory
+  unittest_custom_options.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_custom_options.pb.cc”: No such file or directory
+  unittest_embed_optimize_for.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_embed_optimize_for.pb.cc”: No such file or directory
+  正在生成代码...
+  正在编译...
+  unittest_import.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_import.pb.cc”: No such file or directory
+  unittest_import_public.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_import_public.pb.cc”: No such file or directory
+  unittest_lite_imports_nonlite.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_lite_imports_nonlite.pb.cc”: No such file or directory
+  unittest_mset.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_mset.pb.cc”: No such file or directory
+  unittest_no_generic_services.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_no_generic_services.pb.cc”: No such file or directory
+  unittest_optimize_for.pb.cc
+c1xx : fatal error C1083: 无法打开源文件: “google\protobuf\unittest_optimize_for.pb.cc”: No such file or directory
+  正在生成代码...
