@@ -1,0 +1,70 @@
+1、修改基本编译环境
+	nmake.opt
+	ogr\ogrsf_frmts\generic\makefile.vc
+
+2、修改相关gdal lib名称 debug 加 D  
+	朱金灿修改：
+	支持Hammer投影
+	ogr\ogr_srs_proj4.cpp
+
+
+3、支持 curl、openssl，读取微软云数据   2019-5-30
+
+
+4、从老版移植对awx数据的支持。添加gdal-2.4.0/frmts/awx文件夹及下面的文件；修改gdal-2.4.0/frmts/gdalallregister.cpp；修改gdal-2.4.0/frmts/makefile.vc；修改gdal-2.4.0/gcore/gdal_frmts.h；修改gdal-2.4.0/nmake.opt
+
+5、gdal 增加导出函数 GDALCreateOverviewDataset
+    gdal-2.4.0/gcore/gdal_priv.h
+
+
+6、葛慧斌修改
+hfadataset.cpp  BuildOverviews函数     
+if( nReqOverviews == 0 )
+    return CleanOverviews();
+改为
+
+    HFABand *poBand = hHFA->papoBand[nBand-1];
+	HFAEntry *poEntry = poBand->poNode->GetNamedChild( "RRDNamesList" );
+	if( poEntry != NULL )
+	{
+		poEntry->RemoveAndDestroy();
+	}
+
+    //if( nReqOverviews == 0 )
+    //    return CleanOverviews();
+	CleanOverviews();
+
+
+7、Linux编译中增加 awx
+   ./GDALmake.opt.in
+   ./apps/GNUmakefile
+   ./frmts/awx/GNUmakefile
+
+
+8、郑天宇解决多线程创建金字塔崩溃问题
+   ./gcore/gdal_priv.h
+   ./frmts/gtiff/geotiff.cpp
+
+
+   int GTiffDataset::EnterReadWrite(GDALRWFlag eRWFlag)
+{
+	if (poBaseDS)
+	{
+		return poBaseDS->EnterReadWrite(eRWFlag);
+	}
+
+	return GDALDataset::EnterReadWrite(eRWFlag);
+}
+
+void GTiffDataset::LeaveReadWrite()
+{
+	if (poBaseDS)
+	{
+		return poBaseDS->LeaveReadWrite();
+	}
+
+	return GDALDataset::LeaveReadWrite();
+}
+
+
+

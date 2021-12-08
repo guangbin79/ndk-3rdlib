@@ -71,7 +71,8 @@
 #endif
 #include <sys/stat.h>
 #ifdef HAVE_STATVFS
-#include <sys/statvfs.h>
+  #include <sys/vfs.h>
+  #define statvfs statfs
 #endif
 #include <sys/types.h>
 #if HAVE_UNISTD_H

@@ -10,7 +10,7 @@ export LD=$target_host-ld
 export RANLIB=$target_host-ranlib
 export STRIP=$target_host-strip
 
-export CFLAGS="-fPIE -fPIC -march=armv7-a"
+export CFLAGS="-fPIE -fPIC -march=armv7-a -D__ANDROID__ -D__ANDROID_API__=19"
 export LDFLAGS="-pie -march=armv7-a"
 
 autoreconf -ivf
