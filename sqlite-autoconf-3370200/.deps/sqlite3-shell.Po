@@ -1,0 +1,238 @@
+sqlite3-shell.o: shell.c \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdlib.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/cdefs.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/android/api-level.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/string.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/malloc.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/xlocale.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/alloca.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/strings.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdint.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/machine/wchar_limits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/int-ll64.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/bitsperlong.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/posix_types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/stddef.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/compiler.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/posix_types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/posix_types.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/sysmacros.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/memory.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdio.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/assert.h \
+ sqlite3.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/ctype.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/signal.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/errno.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/errno.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/errno.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/errno.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/errno-base.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/limits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/limits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/limits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/syslimits.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/sigcontext.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/signal.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/signal.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/signal-defs.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/siginfo.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/siginfo.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/ucontext.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/user.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/pwd.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/unistd.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/select.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/time.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/time.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/sysconf.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/pathconf.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/dirent.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/stat.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/stat.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/endian.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/endian.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/resource.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/resource.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/resource.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/resource.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/fcntl.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/fadvise.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/fcntl.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/fcntl.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/fcntl.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/uio.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/utime.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/utime.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/time.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/zlib.h \
+ /home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/zconf.h
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdlib.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/cdefs.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/android/api-level.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/string.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/malloc.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/xlocale.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/alloca.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/strings.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdint.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/machine/wchar_limits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/bitsperlong.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/posix_types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/stddef.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/compiler.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/posix_types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/sysmacros.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/memory.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/stdio.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/assert.h:
+
+sqlite3.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/ctype.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/signal.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/errno.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/errno.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/errno.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/errno.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/errno-base.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/limits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/limits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/limits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/syslimits.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/sigcontext.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/signal.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/signal.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/signal-defs.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/siginfo.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/siginfo.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/ucontext.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/user.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/pwd.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/unistd.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/select.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/time.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/time.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/sysconf.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/pathconf.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/dirent.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/stat.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/stat.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/endian.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/endian.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/sys/resource.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/resource.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/resource.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/resource.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/fcntl.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/fadvise.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/fcntl.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm/fcntl.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/asm-generic/fcntl.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/uio.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/utime.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/linux/utime.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/time.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/zlib.h:
+
+/home/guangbin/Workspace/ndk-3rdlib/android-toolchain/sysroot/usr/include/zconf.h:
